@@ -1,0 +1,31 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: radial-gradient(blue, yellow, orange);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 6px;
+}
+
+img:active {
+    -webkit-transform: rotateY(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+button {
+    height: 70px;
+    width: 90px;
+    margin: 10px;
+    background-color: rgb(67, 67, 170);
+    border-radius: 4px;
+    cursor: pointer;
+}
